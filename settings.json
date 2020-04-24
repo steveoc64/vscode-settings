@@ -4,5 +4,33 @@
     "go.useLanguageServer": true,
     "workbench.tree.indent": 4,
     "debug.console.fontSize": 12,
-    "terminal.integrated.fontSize": 12
+    "terminal.integrated.fontSize": 13,
+
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      { "before": ["C-d"], "after": ["h"] },
+      { "before": ["h"], "after": ["j"] },
+      { "before": ["t"], "after": ["k"] },
+      { "before": ["n"], "after": ["l"] },
+      { "before": ["-"], "after": ["n"] },
+      { "before": ["_"], "after": ["N"] },
+      { "before": ["E"], "after": ["c","i","w"] },
+      { "before": ["U"], "after": ["y","y","p"] },
+      { "before": ["<C-m>"], "after": [":","w","a","<cr>"] },
+      // some changes
+    ],
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false
+    },
+    "editor.fontSize": 13,
+    "files.autoSave": "afterDelay"
 }
