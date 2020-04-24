@@ -1,0 +1,102 @@
+[
+    {
+        "key": "ctrl+s e",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "cmd+\\",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+s t",
+        "command": "workbench.action.terminal.split",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+\\",
+        "command": "-workbench.action.terminal.split",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+\\",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+b cmd+",
+        "command": "gitlens.openChangedFiles"
+    },
+    {
+        "key": "cmd+b",
+        "command": "workbench.action.showAllEditors"
+    },
+    {
+        "key": "alt+cmd+tab",
+        "command": "-workbench.action.showAllEditors"
+    },
+    {
+        "key": "ctrl+alt+cmd+",
+        "command": "cursorColumnSelectDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+alt+cmd+down",
+        "command": "-cursorColumnSelectDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+alt+cmd+down",
+        "command": "cursorColumnSelectDown"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "cursorHome",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "cursorEnd",
+        "when": "textInputFocus"
+    },
+    // {
+    //  "key": "ctrl+a",
+    //  "command": "cursorLineStart",
+    //  "when": "textInputFocus"
+    // },
+    // {
+    //  "key": "ctrl+a",
+    //  "command": "-cursorLineStart",
+    //  "when": "textInputFocus"
+    // },
+    {
+        "key": "ctrl+cmd+t",
+        "command": "workbench.action.reopenClosedEditor"
+    },
+    {
+        "key": "shift+cmd+t",
+        "command": "-workbench.action.reopenClosedEditor"
+    },
+    {
+        "key": "meta+w",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+capslock ctrl+m",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+capslock ctrl+m",
+        "command": "workbench.action.files.saveFiles"
+    }
+]
