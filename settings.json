@@ -1,7 +1,5 @@
 {
     "window.zoomLevel": 2,
-    "go.formatTool": "goimports",
-    "go.useLanguageServer": true,
     "workbench.tree.indent": 4,
     "debug.console.fontSize": 12,
     "terminal.integrated.fontSize": 13,
@@ -24,7 +22,7 @@
       { "before": ["_"], "after": ["N"] },
       { "before": ["E"], "after": ["c","i","w"] },
       { "before": ["U"], "after": ["y","y","p"] },
-      { "before": ["<C-m>"], "after": [":","w","a","<cr>"] },
+      { "before": ["m","m"], "after": [":","w","a","<cr>"] },
       // some changes
     ],
     "vim.handleKeys": {
@@ -32,5 +30,7 @@
       "<C-f>": false
     },
     "editor.fontSize": 13,
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "off",
+    "git.autofetch": true,
+    "go.useLanguageServer": true
 }
